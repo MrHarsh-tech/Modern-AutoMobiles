@@ -1,0 +1,125 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Cars</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Modern Cars</div>
+            <ul class="nav-links">
+                <li><a href="#compare">Compare Cars</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#dealers">Find Dealers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find the Best Car Deals</h1>
+        <p>Compare car prices, read reviews, and find trusted dealerships near you.</p>
+        <button onclick="startComparison()">Start Comparing</button>
+    </section>
+
+    <!-- Car Comparison Section -->
+    <section id="compare" class="comparison-section">
+        <h2>Compare Car Models</h2>
+        <div class="car-comparison">
+            <div class="car">
+                <img src="car1.jpeg" alt="Car 1">
+                <h3>Model: 2023 <a href="car1detail.html"> Honda Civic</a></h3>
+                <p>Price: &#8377;21,00,000 *Ex-Showroom</p>
+                <p>Fuel Efficiency: 35 MPG</p>
+            </div>
+            <div class="car">
+                <img src="car2.jpg" alt="Car 2">
+                <h3>Model: 2023 <a href="car2detail.html"> Kia Sportage</a></h3>
+                <p>Price: &#8377;22,70,000 *Ex-Showroom</p>
+                <p>Fuel Efficiency: 27 MPG</p>
+            </div>
+            <div class="car">
+                <img src="car3.avif" alt="Car 3">
+                <h3>Model: 2023 <a href="car3detail.html"> Hyundai Tucson</a></h3>
+                <p>Price: &#8377;22,70,000 *Ex-Showroom</p>
+                <p>Fuel Efficiency: 28 MPG</p>
+            </div>
+            <div class="car">
+                <img src="car4.png" alt="Car 4">
+                <h3>Model: 2023 <a href="car4detail.html"> Toyota Camry</a></h3>
+                <p>price: &#8377;22,70,000 *Ex-Showroom</p>
+                <p>Fuel Efficiency: 33 MPG</p>
+            </div>
+            <div class="car">
+                <img src="car5.jpg" alt="Car 5">
+                <h3>Model: 2023 <a href="car5detail.html"> Ford Mustang</a></h3>
+                <p>price: &#8377;25,24,000 *Ex-Showroom</p>
+                <p>Fuel Efficiency: 20 MPG</p>
+            </div>
+            <div class="car">
+                <img src="car6.avif" alt="Car 6">
+                <h3>Model: 2023 <a href="car6detail.html"> Chevrolet Malibu</a></h3>
+                <p>price: &#8377;24,40,000 *Ex-Showroom</p>
+                <p>Fuel Efficiency: 32 MPG</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p>"The car buying experience was smooth and seamless!"</p>
+            <strong>- John D.</strong>
+        </div>
+        <div class="review">
+            <p>Great site! Easy to navigate and tons of helpful info. Found my perfect car quickly!</p>
+            <strong>- Sarah K.</strong>
+        </div>
+        <div class="review">
+            <p>"I found the perfect car at a great price!"</p>
+            <strong>- Michael P.</strong>
+        </div>
+        <div class="review">
+            <p>"Amazing prices and great customer service!</p>
+            <strong>- Silverado C.</strong>
+        </div>
+        <div class="review">
+            <p>Comprehensive listings and solid reviews. A bit of outdated info, but overall a great resource!</p>
+            <strong>- Sonata H.</strong>
+        </div>
+    </section>
+    <hr>
+    <!-- Find Dealers Section -->
+    <section id="dealers" class="dealers-section">
+        <h2>Find Trusted Dealers</h2>
+        <div class="dealer">
+            <h3>Auto Oasis</h3>
+            <p>Location: Jalandher</p>
+            <button onclick="contactDealer()" class="dealer_contact"> Contact Car Dealer </button>
+        </div>
+        <div class="dealer">
+            <h3>Next Gen Cars</h3>
+            <p>Location: Delhi</p>
+            <button onclick="contactDealer()" class="dealer_contact"> Contact Car Dealer </button>
+        </div>
+        <div class="dealer">
+            <h3>Road Ready Motors</h3>
+            <p>Location: Noida</p>
+            <button onclick="contactDealer()" class="dealer_contact"> Contact Car Dealer </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CarCompare. All rights reserved.</p>
+    </footer>
+
+    <script src="page1.js"></script>
+</body>
+</html>

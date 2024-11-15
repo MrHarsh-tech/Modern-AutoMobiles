@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff5722;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('hero.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    background-image: url(image1.jpg);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Comparison Section */
+.comparison-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.car-comparison {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px;
+}
+
+.car img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background-image: url(image2.jpg);
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.review {
+    background-color: #27b3dbc7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    color: black;
+}
+
+/* Dealers Section */
+.dealers-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.dealer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #fbbf606b;
+    border: 3px solid black;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.dealer_contact {
+    background-color: rgb(171 255 255 / 70%);
+    color: black;
+    border: 2px solid black;
+}
